@@ -1,5 +1,8 @@
 pip install kaggle
 
+from google.colab import files
+files.upload() #(upload the downloaded API key)
+
 import os
 from kaggle.api.kaggle_api_extended import KaggleApi
 
